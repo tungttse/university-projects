@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.content {
+
+
+}
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+section {margin: 0 2%;padding-bottom: 220px;}
+
+nav {
+    float: none;
+    width: auto;
+
+}
+.navbar-company {
+    color: #fff;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: 2rem;
+    float: none;
+    width: auto;
+
+    /*display: inline-block;*/
+}
+.cart{
+    margin-left: 2%;
+}
+.menuitem {
+    background: #CDF0F6;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+}
+
+
+footer {
+    background: #838282;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 50px;
+
+    padding: 5px;
+    color:#444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+
+}
+nav ul li {
+    border-bottom: 1px solid #e7e7e7;
+
+}
+nav .category {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+    background-color: #555;
+    color: white;
+}
+.page-header {
+    padding: 15px 0 0;
+    margin: 0 0 30px;
+    border-bottom: 1px solid #eee;
+}
+.h1, h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+input[type=text], input[type=email], input[type=date], select, input[type=password], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin: 5px 0;
+}
+
+label {
+
+    display: inline-block;
+    width: 100%;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+
+}
+.row {
+    margin: 0 ;
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.error{
+    color: red;
+    font-size: 0.9em;
+}
+
+.topnav {
+    background: #292b2c;
+    padding: 1.5rem 1rem;
+}
+topnav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.username{
+padding-left: 3px;
+}
+.dropbtn {
+
+
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color:#fff;
+    margin-left: 14px;
+}
+
+.dropdown-content {
+    text-align: left;
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {;}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.product {
+    padding: 15px;
+}
+
+.product > div {
+    padding: 12px;
+}
+
+.product input[type='submit'] {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    float: right;
+    padding: 0.50rem 1.5rem;
+    border-radius: .2rem;
+}
+
+.product .price {
+    float: right;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #0275d8;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+
+.bg-faded {
+    background-color: #f7f7f7;
+}
+
+.name {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.cart > a{
+    color:#fff;
+    text-decoration: none;
+}
+.product {
+    padding: 15px;
+}
+
+.product > div {
+    padding: 12px;
+}
+
+.remove{
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: white;
+    padding: .25rem .5rem;
+    font-size: 1em;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+}
+
+.normal{
+    background-color: #2575D2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.product .price {
+    float: right;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #0275d8;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.loginContainer {
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    padding: 30px;
+
+}
+.mainContainer{
+    margin: auto;
+    width: 400px;
+    height: 100%;
+    padding-top: 10%;
+
+}
+.loginSigup{
+    border-top: 1px solid gray;
+    margin-top: 20px;
+}
+
+/*input element design*/
+
+input[type=text],input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 2px 2px 2px 0;
+    display: inline-block;
+    max-width: 100%;
+    font-weight: normal;
+}
+
+.form {
+    border-radius: 5px;
+    /*background-color: #f2f2f2;*/
+    padding: 20px;
+    width: auto;
+}
+.error-message{
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.success-message{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+@media screen and (min-width: 600px) {
+    nav {width: 20%; float: left;   height: auto; }
+    section {margin-left:  21.5%;}
+    .navbar-company{width: 20%; float: left;   height: auto; }
+    .cart{  margin-left:  21.5%;text-align: right;}
+    .form{width: 90%}
+    .container{margin:0;}
+}
+
+.thanks_img{
+    max-width: 300px;
+    height: auto;
+}
+
+#checkout_container{
+    margin-bottom: 100px;
+    padding-bottom: 10px;
+
+}
